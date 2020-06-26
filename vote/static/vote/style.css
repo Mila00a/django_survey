@@ -1,8 +1,20 @@
 body {
-    background: white url("images/background.jpg") no-repeat;
+    /*background: white url("images/background.jpg") no-repeat;*/
+    background-color: skyblue;
     background-position: right bottom;
+    margin-left: 30px;
 }
 
+a {
+    color: white;
+    font-size: 2rem;
+}
 li a {
     color: white;
+    font-size: 8rem;
+}
+
+h1, label, ul {
+    color: white;
+    font-size: 5rem;
 }
