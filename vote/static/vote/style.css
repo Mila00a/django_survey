@@ -1,20 +1,39 @@
 body {
     /*background: white url("images/background.jpg") no-repeat;*/
-    background-color: skyblue;
+    background-color: rgb(153, 219, 245);
     background-position: right bottom;
     margin-left: 30px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 a {
     color: white;
-    font-size: 2rem;
 }
+
 li a {
+    text-decoration: none;
     color: white;
-    font-size: 8rem;
+    font-size: 3rem;
+    line-height: 5rem;
 }
 
 h1, label, ul {
     color: white;
-    font-size: 5rem;
+    font-size: 3rem;
+    line-height: 5rem;
+}
+
+label {
+    padding-left: 20px;
+}
+
+input[type="submit"] {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    width: 15%;
+}
+
+.again {
+    font-size: 2rem;
+    text-decoration: none;
 }
